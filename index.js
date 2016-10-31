@@ -1,3 +1,5 @@
+"use strict";
+
 let dom = {};
 
 function toDash(str){
