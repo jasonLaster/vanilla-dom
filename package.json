@@ -1,12 +1,14 @@
 {
   "name": "vanilla-dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A small react-like dom API",
   "main": "index.js",
+  "repository": "https://github.com/jasonLaster/vanilla-dom.git",
+  "author": "Jason Laster",
+  "homepage": "https://github.com/jasonLaster/vanilla-dom#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
@@ -15,6 +17,10 @@
     "mocha": "^3.1.2"
   },
   "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
     "mocha-jsdom": "^1.1.0"
   }
 }

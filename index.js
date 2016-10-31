@@ -1,9 +1,8 @@
 let dom = {};
 
 function toDash(str){
-	return str.replace(/([A-Z])/g,($1) => "-"+$1.toLowerCase());
+  return str.replace(/([A-Z])/g,($1) => "-"+$1.toLowerCase());
 };
-
 
 function formatStyles(styles) {
   const style = [];
@@ -19,7 +18,6 @@ function formatStyles(styles) {
 }
 
 function formatAttr(node, key, value) {
-
   if (key == "className") {
     const classes = value.split(" ")
     classes.forEach(klass => node.classList.add(klass))
@@ -60,9 +58,8 @@ function createElement(tag, args) {
 }
 
 dom.div = function() {
-  return createElement("div", Array.prototype.slice.call(arguments))
+  return createElement("div", Array.prototype.slice.call(arguments));
 }
-
 
 module.exports = {
   dom
