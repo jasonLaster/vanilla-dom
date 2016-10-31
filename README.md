@@ -1,7 +1,6 @@
 ### Vanilla DOM
 
-A small API for creating elements based off of [jsonml](http://www.jsonml.org/) and React's DOM api.
-
+A small API for creating elements based off of [jsonML](http://www.jsonml.org/) and React's DOM api.
 
 ```js
 const { dom } = require("vanilla-dom");
@@ -12,3 +11,8 @@ dom.li(
   dom.span({}, todo)
 )
 ```
+
+#### Motivation
+
+* The DOM api for creating elements is really frustrating.
+* Sometimes React is like bringing a gun to a sword fight
